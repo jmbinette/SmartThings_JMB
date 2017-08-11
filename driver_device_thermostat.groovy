@@ -359,7 +359,8 @@ def DeviceData(){
     
 	sendEvent(name: 'temperature', value: temperature, unit: temperatureUnit)	
 	sendEvent(name: 'heatingSetpoint', value: heatingSetpoint, unit: temperatureUnit)
-    sendEvent(name: 'thermostatOperatingState', value: "${data.status.heatLevel}")
+        sendEvent(name: 'thermostatOperatingState', value: "${data.status.heatLevel}")
+	sendEvent(name: "thermostatMode", value: "heat")
 }
 
 def FormatTemp(temp){
