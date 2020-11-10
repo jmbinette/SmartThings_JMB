@@ -5,7 +5,7 @@ preferences {
 }
 
 metadata {
-	definition (name: "Sinopé Technologies Inc. Thermostat", namespace: "Sinopé Technologies Inc.", author: "Mathieu Virole") {
+	definition (name: "Sinopé NeviWeb Thermostat", namespace: "Sinopé Technologies Inc.", author: "JM Binette") {
 		capability "Thermostat Heating Setpoint"
 		capability "Temperature Measurement"
 		capability "Refresh"
